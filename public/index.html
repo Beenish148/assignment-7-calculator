@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div id="background">
+             <input type="text" id="result">
+             
+         <div id="main">
+              
+
+
+             <div id="first-rows">
+              <button  class="result" id="delete" onclick="clearresult()">AC</button>
+                 <button  onclick="getnumber('-')" class="btn-style operator opera-bg ">+/-</button>
+                 <button id="signs" onclick="getnumber('/')" class="btn-style opera-bg">/</button>
+                 </div>
+                 
+               <div class="rows">
+             <button onclick="getnumber('7')" class="btn-style btn-bg first-btn">7</button>
+                 <button onclick="getnumber('8')" class="btn-style btn-bg">8</button>
+                 <button onclick="getnumber('9')" class="btn-style btn-bg ">9</button>
+                 <button id="signs" onclick="getnumber('*')" class="btn-style opera-bg operator">x</button>
+                 </div>
+                 
+                 <div class="rows">
+                 <button onclick="getnumber('4')" class="btn-style btn-bg  first-btn">4</button>
+                 <button onclick="getnumber('5')" class="btn-style btn-bg ">5</button>
+                 <button onclick="getnumber('6')"  class="btn-style btn-bg ">6</button>
+                 <button id="signs" onclick="getnumber('-')" class="btn-style opera-bg operator">-</button>
+                 </div>
+                 
+                 <div class="rows">
+                 <button onclick="getnumber('1')" class="btn-style  btn-bg first-btn">1</button>
+                 <button onclick="getnumber('2')" class="btn-style btn-bg">2</button>
+                 <button onclick="getnumber('3')" class="btn-style btn-bg">3</button>
+                 <button id="signs" onclick="getnumber('+')" class="btn-style opera-bg operator">+</button>
+                 </div>
+                 
+                 <div class="rows">
+                        <button onclick="getnumber('%')" class="btn-style btn-bg  first-btn">%</button>
+                        <button onclick="getnumber('0')" class="btn-style btn-bg ">0</button>
+                        <button onclick="getnumber('.')" class="btn-style btn-bg ">.</button>
+                        <button id="signs" onclick="getResult()" class="btn-style opera-bg operator"> = </button>
+                        </div>
+
+
+
+
+               
+                
+             </div>
+         
+         </div>
+</body>
+</html>

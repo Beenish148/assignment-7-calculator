@@ -1,0 +1,141 @@
+
+  
+  #background {
+      width:300px;
+      height:400px;
+      background:gray;
+      margin:50px auto;
+      
+  }
+  
+  button {
+      border:0;
+      color:#fff;
+  } 
+  
+  #result {
+      display:block;
+      font-family: sans-serif;
+      width:230px;
+      height:40px;
+      margin:10px auto;
+      text-align: right;
+      background:#3b3535;
+      color:#fff;
+      padding-top:20px;
+      font-size:20px;
+      margin-left: 32px;
+      letter-spacing: 4px;
+      position: relative;
+      top:12px;
+
+  }
+  
+  #result:hover {
+      
+      cursor: text;
+      
+  }
+  
+  #first-rows {
+      margin-bottom: 20px;
+      position: relative;
+      top:10px;
+  }
+  
+  .rows {
+      width:300px;
+      margin-top:10px;
+  }
+  
+  #delete {
+      width:110px;
+      height:50px;
+      margin-left:25px;
+      border-radius:4px;
+  } 
+
+   
+  #signs {
+    width:80px;
+    height:50px;
+    border-radius: 10px;
+} 
+
+  .align {
+      margin-left: 6px !important;
+  }
+  
+
+  .btn-style {
+      width:50px;
+      height:50px;
+      margin-left:5px;
+      
+  }
+
+  .first-btn {
+   margin-left:25px;
+  }
+   .btn-bg {
+      background:#000;
+      color:#fff;
+      font-size:26px;
+      cursor:pointer;
+      outline:none;
+      border-bottom:3px solid #333;
+      border-radius: 10px;
+  }
+  
+   .btn-bg:active {
+      background:#000;
+      color:#fff;
+      font-size:26px;
+      cursor:pointer;
+      outline:none;
+      box-shadow: inset 5px 5px 5px #555;
+  }
+ 
+  .opera-bg {
+      background:#333;
+      color:#fff;
+      font-size:26px;
+      cursor: pointer;
+      outline:none;
+      border-bottom:3px solid #555;
+      border-radius: 10px;
+  }
+  
+  .opera-bg:active {
+      background:#333;
+      color:#fff;
+      font-size:26px;
+      cursor: pointer;
+      outline:none;
+      box-shadow: inset 4px 4px 4px #555;
+      border-radius: 10px;
+  }
+  
+  
+  .result {
+      background:#399cb9;
+      color:#fff;
+      font-size:26px;
+      cursor: pointer;
+      border-bottom:3px solid #399cb9;
+      border-radius: 20px;
+  }
+  .result:active{
+    background:#399cb9;
+
+    font-size:26px;
+    cursor: pointer;
+    border-bottom:3px solid #399cb9;
+    border-radius: 20px;
+
+  }
+  
+  
+  
+  
+  
